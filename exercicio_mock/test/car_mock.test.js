@@ -1,10 +1,9 @@
-const { expect } = require('chai');
-const { UserModel } = require('../src/infrastructure/database');
-const user = require('../src/port/user_repository');
+const { CarModel } = require('../src/infrastructure/database');
+const car = require('../src/port/car_repository');
 
 describe('create', () => {
-    it('Valid User', async () => {
-        UserModel.prototype.save = jest.fn().mockImplementation(() => ({
+    it('Valid Car', async () => {
+        CarModel.prototype.save = jest.fn().mockImplementation(() => ({
             toObject: () => ({
                 id: 1,
                 nome: "Fiesta",
@@ -14,7 +13,7 @@ describe('create', () => {
             }),
         }));
 
-        expect(await user.create({
+        expect(await car.create({
             id: 1,
             nome: "Fiesta",
             tipo: "Manual",
