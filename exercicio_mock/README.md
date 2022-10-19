@@ -5,11 +5,11 @@
 Esse repositório consiste na implementação de um Teste Mock para validação de uma classe de carros
 <br>
 
-## 📥 Requisitos <a name="Requisitos"></a>
+## :computer: Requisitos <a name="Requisitos"></a>
 1. Instalar o [Node.JS](https://nodejs.org/en/download/).
 2. Utilizar o [Visual Studio Code](https://code.visualstudio.com/).
 
-## 🧩 Como executar <a name="Como-executar"></a>
+## :computer_mouse: Como executar <a name="Como-executar"></a>
 1. Utilizando o terminal do Git Bash, clone o repositório em sua máquina através do seguinte comando:
     ```
     $ git clone https://github.com/DaviRestani/DaviRestani_C214L1.git
